@@ -1390,60 +1390,6 @@ section[data-reveal].revealed {
   font-weight: 700;
 }
 
-/* ==================== MAP SECTION ==================== */
-.map-section {
-  padding: 80px 20px 100px;
-  background: var(--light-bg);
-}
-
-.map-wrapper {
-  position: relative;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
-}
-
-.map-wrapper iframe {
-  display: block;
-  width: 100%;
-  height: 450px;
-  border: 0;
-}
-
-.map-info-card {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background: white;
-  padding: 18px 22px;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  z-index: 2;
-  max-width: 320px;
-}
-
-.map-info-icon {
-  font-size: 28px;
-  flex-shrink: 0;
-}
-
-.map-info-content h4 {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin-bottom: 2px;
-}
-
-.map-info-content p {
-  font-size: 12px;
-  color: var(--text-light);
-  line-height: 1.5;
-  margin: 0;
-}
-
 /* ==================== FOOTER ==================== */
 .footer {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
@@ -2084,21 +2030,6 @@ section[data-reveal].revealed {
   .identity-description p {
     font-size: 15px;
     line-height: 1.7;
-  }
-
-  /* Map */
-  .map-wrapper iframe {
-    height: 350px;
-  }
-
-  .map-info-card {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    margin-top: -40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    max-width: none;
   }
 
   /* Footer */

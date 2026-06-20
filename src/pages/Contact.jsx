@@ -83,42 +83,6 @@ function Contact() {
         </div>
       </section>
 
-      {/* ===== GOOGLE MAP SECTION ===== */}
-      <section className="map-section">
-        <div className="container">
-          <div className="section-header">
-            <span className="section-tag">स्थान</span>
-            <h2>आमचे स्थान</h2>
-            <div className="header-underline">
-              <span className="underline-bar saffron"></span>
-              <span className="underline-bar green"></span>
-            </div>
-            <p className="section-subtitle">श्री छत्रपती शिवाजी विद्यालय, दारफळ येथे आमचा विद्यालय आहे</p>
-          </div>
-          <div className="map-wrapper">
-            <iframe
-              src="https://maps.app.goo.gl/8n5DZRnJ2p4UwZem9?g_st=aw"
-              width="100%"
-              height="450"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="श्री छत्रपती शिवाजी विद्यालय स्थान"
-            ></iframe>
-            <div className="map-info-card">
-              <div className="map-info-icon">📍</div>
-              <div className="map-info-content">
-                <h4>श्री छत्रपती शिवाजी विद्यालय</h4>
-                <p>दारफळ (ता.)</p>
-                <p>ता. उत्तर सोलापूर</p>
-                <p>जि. सोलापूर</p>
-                <p>पिन: 413222</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
