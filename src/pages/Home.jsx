@@ -183,12 +183,12 @@ function Home() {
           <div className="stats-grid">
             <div className="stats-item">
               <span className="stats-icon">🎓</span>
-              <span className="stats-number"><AnimatedCounter target={500} suffix="+" /></span>
+              <span className="stats-number"><AnimatedCounter target={300} suffix="+" /></span>
               <span className="stats-label">विद्यार्थी</span>
             </div>
             <div className="stats-item">
               <span className="stats-icon">👨‍🏫</span>
-              <span className="stats-number"><AnimatedCounter target={30} suffix="+" /></span>
+              <span className="stats-number"><AnimatedCounter target={12} suffix="+" /></span>
               <span className="stats-label">शिक्षक</span>
             </div>
             <div className="stats-item">
