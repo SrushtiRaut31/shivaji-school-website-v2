@@ -31,10 +31,10 @@ function Contact() {
                 <p>श्री छत्रपती शिवाजी विद्यालय,</p>
                 <p>दारफळ (ता.),</p>
                 <p>ता. उत्तर सोलापूर,</p>
-                <p>जि. सोलापूर - ४१३२५१</p>
-                <p>महाराष्ट्र, भारत</p>
+                <p>जि. सोलापूर</p>
+                <p>पिन: 413222</p>
               </div>
-              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <a href="https://maps.app.goo.gl/8n5DZRnJ2p4UwZem9?g_st=aw" target="_blank" rel="noopener noreferrer" className="contact-link">
                 <span>🗺️ Google Maps वर पहा</span>
               </a>
             </div>
@@ -97,7 +97,7 @@ function Contact() {
           </div>
           <div className="map-wrapper">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.5!2d75.5!3d17.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI5JzQ1LjIiTiA3NcKwMzUnMzguNCJF!5e0!3m2!1smr!2sin!4v1690000000000"
+              src="https://maps.app.goo.gl/8n5DZRnJ2p4UwZem9?g_st=aw"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -110,8 +110,10 @@ function Contact() {
               <div className="map-info-icon">📍</div>
               <div className="map-info-content">
                 <h4>श्री छत्रपती शिवाजी विद्यालय</h4>
-                <p>दारफळ (ता.), ता. उत्तर सोलापूर, जि. सोलापूर - ४१३२५१</p>
-                <p>महाराष्ट्र, भारत</p>
+                <p>दारफळ (ता.)</p>
+                <p>ता. उत्तर सोलापूर</p>
+                <p>जि. सोलापूर</p>
+                <p>पिन: 413222</p>
               </div>
             </div>
           </div>
