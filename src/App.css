@@ -528,6 +528,80 @@ body {
   line-height: 1.7;
 }
 
+/* ==================== IDENTITY / BANNER SECTION ==================== */
+.identity-section {
+  padding: 80px 20px 100px;
+  background: var(--light-bg);
+}
+
+.identity-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.identity-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+.identity-banner-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: var(--lighter-bg);
+}
+
+.identity-banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  transition: transform 0.6s ease;
+}
+
+.identity-card:hover .identity-banner-img {
+  transform: scale(1.02);
+}
+
+.identity-description {
+  padding: 28px 36px 36px;
+  text-align: center;
+}
+
+.identity-description p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-dark);
+  margin: 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.identity-description p::before {
+  content: '"';
+  font-size: 36px;
+  color: var(--primary);
+  font-weight: 700;
+  line-height: 0;
+  vertical-align: -12px;
+  margin-right: 4px;
+}
+
+.identity-description p::after {
+  content: '"';
+  font-size: 36px;
+  color: var(--primary);
+  font-weight: 700;
+  line-height: 0;
+  vertical-align: -18px;
+  margin-left: 4px;
+}
+
 /* ==================== ABOUT SECTION ==================== */
 .about-section {
   padding: 100px 20px;
@@ -1997,6 +2071,19 @@ section[data-reveal].revealed {
   /* Contact */
   .contact-content-modern {
     grid-template-columns: 1fr;
+  }
+
+  .identity-card {
+    border-radius: var(--radius);
+  }
+
+  .identity-description {
+    padding: 20px 24px 28px;
+  }
+
+  .identity-description p {
+    font-size: 15px;
+    line-height: 1.7;
   }
 
   /* Map */

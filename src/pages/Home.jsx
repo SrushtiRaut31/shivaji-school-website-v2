@@ -114,6 +114,32 @@ function Home() {
         </div>
       </section>
 
+      {/* ===== IDENTITY / BANNER SECTION ===== */}
+      <section data-reveal="identity" className={`identity-section ${isRevealed('identity') ? 'revealed' : ''}`}>
+        <div className="container">
+          <div className="section-header">
+            <span className="section-tag">आमची ओळख</span>
+            <h2>आमची ओळख</h2>
+            <div className="header-underline">
+              <span className="underline-bar saffron"></span>
+              <span className="underline-bar green"></span>
+            </div>
+          </div>
+          <div className="identity-card">
+            <div className="identity-banner-wrapper">
+              <img
+                src="/images/banner.jpg.png"
+                alt="श्री छत्रपती शिवाजी विद्यालय - दारफळ"
+                className="identity-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div className="identity-description">
+              <p>श्री छत्रपती शिवाजी विद्यालय हे शिक्षण, संस्कार आणि विद्यार्थ्यांच्या सर्वांगीण विकासासाठी कटिबद्ध असलेले विद्यालय आहे.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* ===== ABOUT SCHOOL SECTION ===== */}
       <section data-reveal="about" className={`about-section ${isRevealed('about') ? 'revealed' : ''}`}>
